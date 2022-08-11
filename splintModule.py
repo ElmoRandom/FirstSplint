@@ -4,14 +4,7 @@
 import adsk.core, adsk.fusion, adsk.cam, traceback
 import math
 
-defaultMainDiameter = 2.5
-defaultMainThickness = 0.3
-defaultLengthMain = 1.0
-defaultConnectLength = 2.0
-defaultJointRadius = 0.27
-defaultJointThickness = 0.23
-app = None
-ui = None
+
 
 def createNewComponent():
     # Get the active design.
